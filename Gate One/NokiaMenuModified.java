@@ -18,7 +18,7 @@ Menu-  	1.Phone book
 	11.Clock
 	12.Profiles
 	13.SIM Services
-	
+	14.Enter any number that is not in the menu to exit.
 	""";
 
 
@@ -31,13 +31,11 @@ while(isReturning){
 System.out.println(prompt);
 System.out.print("Enter a menu number: ");
 int userInput = scanner.nextInt();
-if(userInput != 0 ){isReturning = true;
-}
-else{isReturning = false;
-}
+if(userInput != 0 ){isReturning = true;}
+else{isReturning = false;}
 
 switch(userInput){
-	case 1 -> {
+		case 1 -> {
 
 	System.out.println("1.Search");
 	
@@ -113,9 +111,7 @@ switch(userInput){
 
 	else{System.out.print("Invalid Number");}
 
-	System.out.print("Enter number (0) to return to previous menu: ");
-		 userInput = scanner.nextInt();
-	}
+		}
 	
 	
 
@@ -228,9 +224,7 @@ switch(userInput){
 	
 		else{System.out.println("Invalid Number");}
 
-	System.out.print("Enter number (0) to return to previous menu: ");
-		 userInput = scanner.nextInt();
-
+	
 	
 	}
 
@@ -247,10 +241,7 @@ switch(userInput){
 	
 	System.out.println("1.Chat");
 
-	System.out.print("Enter number (0) to return to previous menu: ");
-		 userInput = scanner.nextInt();
-
-	}
+		}
 
 
 
@@ -365,10 +356,7 @@ switch(userInput){
 	else{System.out.println("Invalid number");}
 
 
-	System.out.print("Enter number (0) to return to previous menu: ");
-		 userInput = scanner.nextInt();
-
-
+	
 
 
 
@@ -394,9 +382,7 @@ switch(userInput){
 
 	System.out.println("9.Screen saver");
 
-	System.out.print("Enter number (0) to return to previous menu: ");
-		 userInput = scanner.nextInt();
-
+	
 
 	}
 
@@ -520,9 +506,7 @@ switch(userInput){
 
 	else{System.out.println("Invalid number");}
 	
-	System.out.print("Enter number (0) to return to previous menu: ");
-		 userInput = scanner.nextInt();
-
+	
 	}
 
 	case 7 ->{
@@ -530,19 +514,14 @@ switch(userInput){
 	System.out.println("1.Call divert");
 
 
-	System.out.print("Enter number (0) to return to previous menu: ");
-		 userInput = scanner.nextInt();
-
+	
 	}
 
 
 	case 8 ->{
 
 	System.out.println("1.Games");
-         System.out.print("Enter number (0) to return to previous menu: ");
-		 userInput = scanner.nextInt();
-
-
+         
 	}
 
 
@@ -550,16 +529,13 @@ switch(userInput){
 
 	System.out.println("1.Calculator");
 
-	System.out.print("Enter number (0) to return to previous menu: ");
-		 userInput = scanner.nextInt();
-
+	
 	}
 
 	case 10 ->{
 
 	System.out.println("1.Reminders");
-		System.out.print("Enter number (0) to return to previous menu: ");
-		 userInput = scanner.nextInt();
+		
 
 
 	}
@@ -604,9 +580,7 @@ switch(userInput){
 
 	}
 
-		System.out.print("Enter number (0) to return to previous menu: ");
-		 userInput = scanner.nextInt();
-
+		
 	}
 
 
@@ -614,9 +588,7 @@ switch(userInput){
 	case 12 ->{ System.out.println("1.Profiles");
 
 
-	System.out.print("Enter number (0) to return to previous menu: ");
-		 userInput = scanner.nextInt();
-
+	
 
 
 	}
@@ -624,16 +596,13 @@ switch(userInput){
 	case 13 ->{ System.out.println("1.SIM services");
 
 
-	System.out.print("Enter number (0) to return to previous menu: ");
-		 userInput = scanner.nextInt();
-
+	
 
 	}
 
-	/*case 14 ->{System.out.println("Enter number (0) to return to previous menu");
-		 userInput = scanner.nextInt();}*/
 	
-		}
+		
+	}
 
 
 	
