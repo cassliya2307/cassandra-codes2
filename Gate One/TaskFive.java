@@ -17,7 +17,7 @@ System.out.print(num  );
 int count2 = 1;
 while(count2 <= 5){
 count2++;
-System.out.print(  num2);
+System.out.printf("%d ", num2);
 
 
 }
